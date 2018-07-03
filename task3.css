@@ -1,14 +1,13 @@
-/*div
-{
-	background-color:cyan;
-}*/
+html{
+	background-color: cyan;
+}
 header
 {
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	right: 0px;
-	height: 10rem;
+	height: 5rem;
 	background-color:cyan;
 
 }
@@ -16,17 +15,18 @@ header
 main
 {
 	position: absolute;
-	top:10rem;
+	top:5rem;
 	left: 0px;
 	right: 0px;
 	height: 20rem;
 	background-color:cyan;
+	text-align:center
 }
 
 footer
 {
 	position: absolute;
-	top:30rem;
+	top:25rem;
 	left: 0px;
 	right: 0px;
 	height: 10rem;
@@ -36,36 +36,48 @@ footer
 p
 {
 	height: 12rem;
-	
 	color: white;
-	margin-left: 20%;
-	margin-right: 20%;
 	margin-top:5rem;
-
+	margin-left: 20%;
+	margin-right: 20%;	
 }
 
 #a
 {
 
-	margin: 1rem;
-	padding: 1rem;
+	margin: 0.6rem;
+	padding: 0.6rem;
+	width: 1rem;
+	height: 1rem;
+
 }
 #b
 {
-	margin-top: 7rem;
-	margin-left: 28%;
-	margin-right: 28%;
+	margin-top: 3rem;
+
+	text-align:center
 	
 	
 }
 
 #c{
+	position: absolute;
 	margin-top: 1rem;
-	float: left;
+	
+	right: 1rem;
+	width: 5rem;
+	height: 5rem;
+
 	
 }
 #d{
+	position: absolute;
 	margin-top: 1rem;
 	float: right;
+	left: 1rem;
+	top: 1rem;
+	width: 5rem;
+	height: 5rem;
+
 
 }
