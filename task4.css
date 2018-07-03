@@ -1,0 +1,43 @@
+header
+{
+	background-color:cyan;
+	 height: 5rem;
+}
+p{
+	color: white;
+	padding: 1rem; 
+}
+#left{
+	position: fixed;
+	left: 1rem;
+}
+#center{
+	position: fixed;
+	left: 45%;
+}
+#right{
+	position: fixed;
+	right: 1rem;
+}
+.text{
+	position: fixed;
+	right: 0px;
+	left: 8rem;
+	padding-right:80%;
+	height: 10%;
+	font-size:40px;
+}
+#ming{
+	top:7rem;
+}
+#an{
+	top:14rem;
+}
+button{
+	position: fixed;
+	top：14rem;
+	width: 100%;
+	height: 10%;
+	background-color: cyan;
+	font-color:white;
+}
