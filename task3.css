@@ -19,26 +19,27 @@ main
 	top:10rem;
 	left: 0px;
 	right: 0px;
-	height: 30rem;
+	height: 20rem;
 	background-color:cyan;
 }
 
 footer
 {
 	position: absolute;
-	top:40rem;
+	top:30rem;
 	left: 0px;
 	right: 0px;
-	height: 50rem;
+	height: 10rem;
 	background-color:cyan;
 }
 
 p
 {
-	height: 10rem;
+	height: 12rem;
 	
 	color: white;
 	margin-left: 20%;
+	margin-right: 20%;
 	margin-top:5rem;
 
 }
@@ -46,22 +47,25 @@ p
 #a
 {
 
-	margin: 2rem;
-	padding: 2rem;
+	margin: 1rem;
+	padding: 1rem;
 }
 #b
 {
 	margin-top: 7rem;
-	margin-left: 40%;
+	margin-left: 28%;
+	margin-right: 28%;
+	
+	
 }
 
 #c{
 	margin-top: 1rem;
-	margin-left: 5rem;
+	float: left;
 	
 }
 #d{
 	margin-top: 1rem;
-	margin-right: 5rem;
 	float: right;
+
 }
