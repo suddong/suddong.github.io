@@ -10,28 +10,37 @@ p{
 #left{
 	position: fixed;
 	left: 1rem;
+	top: 0.5rem;
 }
 #center{
 	position: fixed;
-	left: 45%;
+	top: 0.5rem;
+	left: 40%;
+
 }
 #right{
 	position: fixed;
 	right: 1rem;
+	top: 0.5rem;
+}
+
+img{
+	width: 7rem;
+	height: 5rem;
 }
 .text{
 	position: fixed;
 	right: 0px;
-	left: 8rem;
+	left: 7rem;
 	padding-right:80%;
 	height: 10%;
-	font-size:40px;
+	font-size:15px;
 }
 #ming{
-	top:7rem;
+	top:6rem;
 }
 #an{
-	top:14rem;
+	top:13rem;
 }
 button{
 	position: fixed;
