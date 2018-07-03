@@ -4,6 +4,10 @@
 }*/
 header
 {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
 	height: 10rem;
 	background-color:cyan;
 
@@ -11,12 +15,20 @@ header
 
 main
 {
+	position: fixed;
+	top:10rem;
+	left: 0px;
+	right: 0px;
 	height: 30rem;
 	background-color:cyan;
 }
 
 footer
 {
+	position: fixed;
+	top:40rem;
+	left: 0px;
+	right: 0px;
 	height: 50rem;
 	background-color:cyan;
 }
@@ -34,7 +46,7 @@ p
 #a
 {
 
-			margin: 2rem;
+	margin: 2rem;
 	padding: 2rem;
 }
 #b
