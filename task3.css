@@ -1,0 +1,55 @@
+/*div
+{
+	background-color:cyan;
+}*/
+header
+{
+	height: 10rem;
+	background-color:cyan;
+
+}
+
+main
+{
+	height: 30rem;
+	background-color:cyan;
+}
+
+footer
+{
+	height: 50rem;
+	background-color:cyan;
+}
+
+p
+{
+	height: 10rem;
+	
+	color: white;
+	margin-left: 20%;
+	margin-top:5rem;
+
+}
+
+#a
+{
+
+			margin: 2rem;
+	padding: 2rem;
+}
+#b
+{
+	margin-top: 7rem;
+	margin-left: 40%;
+}
+
+#c{
+	margin-top: 1rem;
+	margin-left: 5rem;
+	
+}
+#d{
+	margin-top: 1rem;
+	margin-right: 5rem;
+	float: right;
+}
