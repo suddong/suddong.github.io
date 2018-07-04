@@ -7,7 +7,8 @@
 	float: right;
 
 	margin: 1%;
-		padding: 15%;
+	padding: 15%;
+	max-width: 768px;
 }
 #a{
 	width: 100%;
