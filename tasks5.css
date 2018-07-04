@@ -104,6 +104,9 @@ div{
 #png6{
 	padding-top: 1rem;
 }
+#pngsix{
+	padding-bottom: 3rem;
+}
 #red{
 	color:red;
 }
@@ -116,10 +119,16 @@ div{
 }#hui3{
 	color: grey;	
 }
+#hui4{
+	color: grey;	
+
+}
 .six{
 	height: 15%;
+	margin-bottom:1rem; 
 }
 #old{
-	text-align: left;
+	margin-bottom:3rem;
+	font-size: 15;
 	
 }
