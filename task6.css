@@ -43,7 +43,7 @@ option{
 }
 footer{
 	background-color: #f8fafb;
-	height: 6rem;
+	height: 94px;
 	position: fixed;
 	bottom: 0;
 	width: 100%;
@@ -84,15 +84,15 @@ button{
 
 .bg-task6_01 {
     width: 42px; height: 44px;
-    background: url('css_sprites.png') -10px -10px;
+    background: url('css_sprites.png') -10px -124px;
     margin-top: 0.5rem;
 	margin-right: 1rem;
 	float: right;
 }
 
 .bg-task6_05 {
-    width: 40px; height: 40px;
-    background: url('css_sprites.png') -72px -74px;
+    width: 94px; height: 94px;
+    background: url('css_sprites.png') -10px -10px;
 
 
 }
@@ -104,29 +104,29 @@ button{
 }
 
 .bg-task6_06 {
-    width: 42px; height: 41px;
-    background: url('css_sprites.png') -10px -74px;
+    width: 42px; height: 74px;
+    background: url('css_sprites.png') -190px -10px;
     float: right;
     margin-right: 20%;
 }
 
 .bg-task6_03 {
     width: 24px; height: 24px;
-    background: url('css_sprites.png') -138px -10px;
+    background: url('css_sprites.png') -72px -124px;
     margin-left: 2rem;
     display:inline-block
 }
 
 .bg-task6_02 {
     width: 19px; height: 23px;
-    background: url('css_sprites.png') -138px -54px;
+    background: url('css_sprites.png') -116px -124px;
     display:inline-block;
      margin-left: 2rem;
 
 }
 .bg-task6_04 {
-    width: 46px; height: 40px;
-    background: url('css_sprites.png') -72px -10px;
+    width: 46px; height: 74px;
+    background: url('css_sprites.png') -124px -10px;
        float: left;
     margin-left: 20%;
 }
@@ -164,4 +164,3 @@ button{
 	float: right;
 	margin-right: 21%;
 }
-
