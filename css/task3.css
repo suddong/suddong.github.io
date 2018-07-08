@@ -1,0 +1,49 @@
+html{
+	background-color: cyan;
+}
+body{
+	border: 0;
+}
+
+main
+{
+	text-align: center;
+}
+p
+{
+	text-align: center;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%; 
+	text-align: left;
+
+}
+
+.a
+{
+	width: 2rem;
+	height: 2rem;
+	margin-top:  0.5rem;
+
+	margin-left:  0.5rem;
+	float: left;
+}
+.b
+{
+	margin-top: 7rem;
+	margin-right: 10%;
+}
+
+#c{
+
+	margin-top: 10rem;
+	float: left;
+	width: 5rem;
+	margin-left: 10%;
+}
+#d{
+	margin-top: 10rem;
+	float: right;
+	width: 5rem;
+	margin-right: 10%;
+}

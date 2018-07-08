@@ -1,0 +1,136 @@
+header{
+	background-color: cyan;
+	height: 3rem;
+	font-size: 20;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+footer{
+	margin-bottom: 0px;
+	position:fixed;
+	bottom: 0;
+	width: 100%;
+}
+body{
+	margin: 0px;
+    display:flex;
+    flex-flow:column;
+    min-height:100vh;
+}
+main{flex:1;}
+
+.left{
+	margin-top:0.5rem;
+	float: left;
+	color: white;
+}
+
+.center{
+	
+	margin-top: 0.5rem;
+	color: white;
+}
+
+button{
+	width: 50%;
+	height: 3rem;
+	font-size: 20;
+	border-radius: 5%;
+	border: none;
+}
+.zuo{
+	float: left;
+	background-color: white;
+}
+.you{
+	float: right;
+	background-color: cyan;
+}
+.back{	
+	width: 100%;
+	height: 18rem;
+	background: url(task5_01.png);
+	background-size: cover; -moz-background-size: cover;
+}
+
+.png1{
+	width: 4rem;
+	height: 5rem;
+	margin-top: 8rem;
+	margin-left: 3rem; 
+}
+
+.png2{
+	margin-left: 8rem;
+}
+#xu{
+	padding-top: 4.5rem;
+	margin-left: 9rem;
+
+}
+#jing{
+
+	margin: 0;
+	margin-bottom: 1rem;
+	
+}
+div{
+	border-bottom:1px solid #545454;
+	width: 100%;
+	height: 3.5rem;
+}
+#noborder{
+	border-bottom:0px ;
+}
+
+
+.png3{
+	padding-top: .8rem;
+	margin-left: 0.5rem;
+	float: left;
+}
+.text3{
+	padding-top: .8rem;
+}
+
+.png4{
+	float: left;
+	margin-left: 3rem;
+	margin-top:1rem;
+}
+.z{
+	float: left;
+}
+#png6{
+	padding-top: 1rem;
+}
+#pngsix{
+	padding-bottom: 5rem;
+}
+#red{
+	color:red;
+}
+
+#hui1{
+	color: grey;	
+}
+#hui2{
+	color: grey;	
+}#hui3{
+	color: grey;	
+}
+#hui4{
+	color: grey;	
+
+}
+.six{
+	height: 18%;
+	margin-bottom:1rem; 
+}
+#old{
+	margin-bottom:3rem;
+	font-size: 15;
+	
+}

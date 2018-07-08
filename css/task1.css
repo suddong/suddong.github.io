@@ -1,0 +1,18 @@
+
+body{
+		max-width: 768px;
+}
+.a{
+	
+		
+	background-color:yellow;
+	float: right;
+
+	margin: 1%;
+	padding: 15%;
+
+}
+#a{
+	width: 100%;
+	height: 100%;
+}
