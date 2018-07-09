@@ -98,7 +98,6 @@ div{
 	border-right-color:transparent; 
 	float: right;
 	position: fixed;
-	top: auto;
-	bottom: auto;
+	top: 380px;
 	right: 0;
 }
