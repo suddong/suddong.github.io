@@ -1,0 +1,104 @@
+header{
+	background-color: #29bde0;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.bg-page1 {
+    width: 34px; height: 27px;
+    background: url('../images/7css_sprites.png') -165px -235px;
+}
+body{
+	background-color: #f0f0f0!important;
+
+}
+div{
+	text-align: center;
+}
+.right{
+	float: right;
+	margin-right: 0.5rem;
+}
+
+.module1{
+	background-color: #fff;
+	margin-top: 2rem;
+	padding-top: 2rem;
+	height: 6rem;
+	margin-left: 5rem;
+	color: #9a9a9a;
+}
+.module2{
+	background-color: #fff;
+	margin-left: 5rem;
+	height: 50rem;
+	
+}
+
+.text1{
+	margin-top: 2rem;
+}
+.text2{
+	background-color: #fff;
+	margin-top: 2rem;
+	height: 6rem;
+	padding-top: 2rem;
+	color: #fde1ae;
+	border: 2px solid #fde1ae;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.blue{
+	text-align: center;
+	margin-top: 2rem;
+	height: 7rem;
+	background-color: #69d1e9;
+	margin-left: 2.5rem;
+	margin-right: 2.5rem;
+	padding-top: 2.5rem;
+	color: #f0f0f0;
+}
+
+.text3{
+	margin-top: 2rem;
+	color: #9a9a9a;
+}
+
+.cirle1{
+	background-color: #69d1e9;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	 display:inline-block
+}
+
+.cirle2{
+	background-color: #f0f0f0;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	display:inline-block
+}
+
+.foot{
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.sanjiao{
+	width: 0px;
+	height: 0px;
+	border:10px;
+ 	color: #fbb435;
+	border-top-color: transparent;
+	border-style: solid;
+	border-bottom-color:transparent;
+	border-left-color: #fbb435;
+	border-right-color:transparent; 
+	float: right;
+	position: fixed;
+	top: auto;
+	bottom: auto;
+	right: 0;
+}

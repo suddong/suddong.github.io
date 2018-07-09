@@ -1,0 +1,164 @@
+.bg-page3_02 {
+    width: 40px; height: 40px;
+    background: url('../images/7css_sprites.png') -153px -285px;
+    float: right;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+.bg-page3_03 {
+    width: 320px; height: 205px;
+    background: url('../images/7css_sprites.png') -24px -10px;
+    margin: 0 auto;
+    min-width: 320px;
+}
+
+
+.bg-page3_01 {
+    width: 51px; height: 42px;
+    background: url('../images/7css_sprites.png') -82px -285px;
+    float:left;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+
+main{
+	  text-align: left;
+	  margin-top:5rem; 
+	  width: 100%;
+}
+
+.module1{
+	background-color: #29bde0;
+	width: 100%;
+}
+header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 5rem;
+	background-color: #29bde0;
+	text-align: center;
+	border: 3px solid #f0f0f0;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.text1{
+	color: #fff;
+	padding-top: 1.2rem;
+	display: inline-block;
+}
+
+.text2{
+	color: #ffc865;
+	font-size: 1.7em;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: left;
+}
+
+
+.text3{
+	color: #fff;
+	font-size: 1em;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5rem;
+
+}
+
+.text4{
+	color: #fff;
+	font-size: 1em;
+	margin-left: 10%;
+	margin-right: 2em;
+	text-align: left;
+}
+
+.text5{
+	color: #fff;
+	font-size: 1em;
+	margin-left: 10%;
+	margin-right: 2em;
+	padding-bottom: 1em;
+	margin-bottom: 0;
+}
+
+.module2{
+	margin: 0;
+	background-color: #fff;
+	height: 10rem;
+	border: 1px solid black;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.text6{	
+	display: inline-block;
+	text-align: left;
+	margin-left: 10%;
+	margin-right: 20%;
+	margin-top: 1rem;
+}
+
+.text7{
+	display: inline-block;
+	text-align: right;
+	margin-left: 20%;
+	margin-right: 10%;
+	margin-top: 1rem;
+	color: #a6a6a6
+}
+
+.text8{
+
+	text-align: left;
+	margin-left: 10%;
+	color: #bcbcbc;	
+}
+
+
+
+footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 10rem;
+}
+.footer{
+	background:#99dff0;
+	height: 10rem;
+	width: 100%;
+	opacity: 0.5;
+	z-index:100;
+	filter:alpha(opacity=50)
+}
+
+button{
+	position: fixed;
+	bottom: 2rem;
+	display: inline-block;
+	width: 30%;
+	height: 5rem;
+
+}
+
+
+.left{
+	position: fixed;
+	left: 5rem;
+	background-color: #f66f6f;
+	border-radius: 10%;
+}
+
+.right{
+	position: fixed;
+	right: 5rem;
+	background-color: #fbb435;
+	border-radius: 10%;
+}
