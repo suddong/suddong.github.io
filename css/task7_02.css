@@ -1,4 +1,11 @@
-
+.www{
+	background: url('../images/www.png');
+	width: 106px;
+	height: 49px;
+	margin-top: 28px;
+	margin-left: 10px;
+	float: left;
+}
 .bg-page2_03{
 	margin-top: 1rem;
 	margin-right: 2rem;

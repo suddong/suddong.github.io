@@ -1,0 +1,173 @@
+
+
+.text1{
+	display: inline-block;
+}
+
+.text2{
+	display: inline-block;
+	color: #26a26f
+}
+header{
+	background-color: #26a26f;
+}
+.top1{
+	width: 100%;
+	height: 3rem;
+	background-color: #fff;
+}
+
+.phone{
+	color: #29b078;
+	margin-left: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	display: inline-block;
+}
+
+.bg-task7_01 {
+	margin-right: 2rem;
+	margin-top: .4rem;
+	margin-bottom: .2rem;
+    width: 107px; height: 24px;
+    background: url('../images/8css_sprites.png') -1030px -595px;
+    float: right;
+}
+
+.top2{
+	width: 100%;
+	height: 100px;
+	background-color: #29b078 !important;
+	margin-bottom: 0 !important;
+	border: 0 !important;
+}
+
+.switch{
+	color: #fff !important;
+	float: right;
+}
+
+.main{
+	background-color: #fafafa;
+}
+
+.main-module1{
+	background-color: #fff;
+	text-align: center;
+}
+
+.main-text1{
+	color: #5dc298;
+}
+
+.main-text{
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+.bottom{
+	border-bottom: 1px solid #ededed;
+}
+
+.left{
+	margin-right: 11rem !important;
+}
+
+.fa{
+	background-color: #fafafa;
+	margin-bottom: 5rem;
+	float: left;
+}
+
+li{
+	list-style: none;
+}
+ul{
+	padding: 0;
+}
+
+.border{
+	border-bottom: 1px solid #999;
+}
+
+.cirle{
+	width: 10px;
+	height: 10px;
+	border: 1px solid #f40;
+	border-radius: 50%;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	display: inline-block;
+}
+.tudou{
+	width: 10px;
+	height: 10px;
+	background-color: #f40;
+	border: 1px solid #f40;
+	border-radius: 50%;
+	margin-right: 2rem;
+	margin-left: 2rem;
+	display: inline-block;
+}
+
+
+#qiye{
+	margin-left: 2rem;
+}
+
+.dis{
+		float: left;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		margin-left: 10rem;
+}
+
+.text3{
+	float: left;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-left: 10rem;
+	width: 24em;
+	text-align: left;
+	color: #999;
+}
+
+.text4{
+	text-align: left;
+	color: #999;
+	float: left;
+	margin-left: 4em;
+	width: 40em;
+	margin-top: 5rem;
+	text-indent: 4em;
+}
+.border{
+	border-bottom: 1px solid #999;
+	height: 252px;
+}
+
+footer{
+	background-color: #26a26f;
+	text-align: center;
+}
+
+.foot-text1{
+	color: #fff;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.foot-text2{
+	color: #fff;
+	display: inline-block;
+	margin-left: 2rem;
+
+}
+
+
+.foot-text3{
+	color: #fff;
+	margin-bottom: 0;
+
+}
+
