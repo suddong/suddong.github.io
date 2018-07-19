@@ -144,31 +144,40 @@ main{
 
 .module3{
 	text-align: center;
+	margin-bottom: 10rem;
+}
+.luo{
+	background-color: #fff;
+	text-align: center;
+}
+.yuan{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%; 
+	margin: 0 auto;
+}
+.png1{
+		background: url(../images/png1.png);
+}
+.png2{
+		background: url(../images/png2.png);
+}
+.png3{
+		background: url(../images/png3.png);
+}
+.png4{
+		background: url(../images/png4.png);
+}
+.aa{
+	height: 10px;
+}
+.text-luo{
+	width: 10em;
+	margin: 0 auto;
+	color: #999;
 }
 
 
-.bg-luo1{
-	margin: 0 auto;
-    width: 272px; height: 369px;
-    background: url('../images/8css_sprites.png') -597px -324px;
-}
-.bg-luo2{
-	margin: 0 auto;
-    width: 272px; height: 373px;
-    background: url('../images/8css_sprites.png') -10px -324px;
-}
-
-.bg-luo3{
-	margin: 0 auto;
-    width: 275px; height: 369px;
-    background: url('../images/8css_sprites.png') -302px -324px;
-}
-
-.bg-luo4{
-	margin: 0 auto;
-    width: 269px; height: 369px;
-    background: url('../images/8css_sprites.png') -1030px -10px;
-}
 
 .bg-company1{
 	margin: 0 auto;
