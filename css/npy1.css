@@ -1,0 +1,37 @@
+.bt1{
+	position: fixed;
+	bottom: 50px;
+	left: 10px;
+	background-color: green;
+	width: 40%;
+	height: 65px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5%;
+	border: none;
+}
+.bt2{
+	position: fixed;
+	bottom: 50px;
+	right: 10px;
+	background-color: red;
+	width: 40%;
+	height: 65px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 5%;
+	border: none;
+
+}
+
+h5{
+	margin-top: 100px !important;
+	margin-bottom: 80px !important;
+}
+div{
+	text-align: center;
+}
+
+.img1{
+	width: 50%;
+}
