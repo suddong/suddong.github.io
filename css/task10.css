@@ -1,0 +1,195 @@
+
+
+.navv{
+	background-color: #1d7ad9;
+	color: #fff;
+}
+
+.text1{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.nav1{
+	text-align: right !important;
+}
+
+.text2{
+	padding-top: 10px;
+	color: #fff;
+	text-align: center;
+}
+
+.bt1{
+	height: 40px;
+	width: 50px;
+	display: inline-block;
+}
+
+.subnav{
+	background-color: #f9f9f9;
+	height: 120px;
+	text-align: right;
+}
+
+.right{
+	float: right !important;
+}
+button{
+	text-align: right !important;
+	margin-top: 40px !important;
+	margin-left: 20px !important;
+	height: 3em;
+	background-color: #fff;
+	border: 0;
+	border-radius: 10%;
+}
+
+.dis{
+	padding: 0 !important;
+}
+
+
+.yuan{
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #ff7f02;
+	text-align: center;
+	color: #fff;
+}
+
+.yuan1{
+	position: relative;
+	top: 10px;
+	margin: 0 auto;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #ccc;
+	text-align: center;
+	color: #fff;
+}
+
+.text3{
+	text-align: center;
+	padding-top: 20px;
+	color: #ff7f02;
+	border-top: 2px solid #ff7f02;
+}
+
+.text4{
+	text-align: center;
+	padding-top: 20px;
+	color: #ccc;
+	border-top: 2px solid #ccc;
+}
+
+.blue{
+	width: 5px;
+	height: 1em;
+	background-color: #1d7ad9;
+	display: inline-block;
+}
+
+h4{
+	display: inline-block;
+}
+
+.main1{
+	height: 40px;
+	background-color: #f2f2f2;
+}
+
+.bg-Ruler{
+	display: inline-block;
+	margin-top: 10px;
+    width: 22px; height: 20px;
+    background: url('../images/css_sprites10.png') -122px -10px;
+}
+
+.bg-box{
+	display: inline-block;
+	margin-top: 10px;
+    width: 19px; height: 15px;
+    background: url('../images/css_sprites10.png') -10px -122px;
+}
+
+.bg-Cut___Scissors{
+	display: inline-block;
+	margin-top: 10px;
+    width: 15px; height: 20px;
+    background: url('../images/css_sprites10.png') -122px -50px;
+}
+
+.text5{
+	color: #1d7ad9;
+	display: inline-block;
+	font-size: 20px;
+}
+
+.lb{
+	margin-top: 20px;
+	margin-bottom: 20px !important;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+form{
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+
+.input1{
+	width: 50px;
+}
+
+.main2{
+	background-color: #fbfcff;
+}
+
+.bt{
+	background-color: red;
+	width: 120px;
+	height: 40px;
+	text-align: center !important;
+	margin: 80px;
+}
+
+.center{
+	text-align: center;
+}
+
+.foot{
+	font-size: 12px;
+	background-color: #f9f9f9;
+}
+
+.foot-text{
+	text-align: right;
+	margin-top: 60px;
+	color: #999;
+}
+
+.bg-qrcode_for_gh_32213eeb65ba_1280{
+	float: right;
+    width: 92px; height: 92px;
+    background: url('../images/css_sprites10.png') -10px -10px;
+}
+
+.t1{
+
+	margin-bottom: 10px;
+}
+
+.blue{
+	height: 30px;
+	width: 100%;
+	background-color: #1d7ad9;
+	text-align: center;
+	color: #fff;
+}
