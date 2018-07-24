@@ -1,5 +1,4 @@
 
-
 .navv{
 	background-color: #1d7ad9;
 	color: #fff;
@@ -131,17 +130,10 @@ h4{
 	font-size: 20px;
 }
 
-.lb{
-	margin-top: 20px;
-	margin-bottom: 20px !important;
-	margin-right: 40px;
-	margin-left: 40px;
-}
 
 form{
 	display: inline-block;
-	margin-right: 40px;
-	margin-left: 40px;
+	text-align: center;
 }
 
 .input1{
@@ -158,6 +150,7 @@ form{
 	height: 40px;
 	text-align: center !important;
 	margin: 80px;
+	margin: 0 auto;
 }
 
 .center{
