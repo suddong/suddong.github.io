@@ -1,0 +1,105 @@
+.center{
+    text-align: center;
+}
+.text{
+    display: inline;
+    margin:7px;
+    color: white;
+}
+.left{
+    float: left
+}
+header{
+	background-color: #29bde0;
+	height: 50px;
+}
+h3,body{
+    margin: 0;
+}
+.main_module1{
+    margin-top:20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 328px;
+    position: relative;
+    background: #fbfbfb;
+}
+.wjpb{
+    width: 75px;
+    height: 100%;
+    border: 1px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+}
+table{
+    height: 350px;
+}
+.dis{
+    display: inline;
+}
+ul li{
+    text-align: left;
+    margin-right: 30px;
+    float: left;
+
+}
+.bor{
+    border: 1px solid gray;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    color:#29bde0;
+    font-size: 10px;
+}
+ul{    
+    margin: 0;
+    color: orange
+}
+.w{
+    width: 300px;
+    padding: 0;
+}
+
+#left{
+    text-align: left;
+    color: gray;
+}
+.mar{
+    padding: 5px;
+}
+.xian{
+    border: 1px solid gray;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+#num{
+    color: orange;
+    width: 30px;
+}
+.text_left{
+    text-align: left;
+}
+.bt1{
+    width: 20px;
+    height: 20px;
+    color: orange;
+}
+input[type=range]{
+    -webkit-appearance: none;/*清除系统默认样式*/
+    width: 80%;
+    height: 5px;/*横条的高度*/
+    background-color: #fab344;
+    outline: none;
+    cursor: pointer;
+}
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;/*清除系统默认样式*/
+    width: 4rem;
+    height: 2rem;
+    background: url(../images/task7_sz.png) no-repeat 0 0/cover;
+    border: none;
+    cursor: pointer;
+}

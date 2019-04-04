@@ -1,12 +1,55 @@
+
+#sidemenu{
+	display: none;
+}
+.dis{
+	display: inline;
+}
+#sidemenu:checked + aside {
+	/*为被选中的sidemenu后的aside设置属性（紧邻）*/
+	left: 0;
+	/*点击按钮即选中checked后,侧边栏位置变为贴着左边,配合ease-out使用,有渐变滑出的效果*/
+}
+
+#sidemenu:checked ~ #wrap {
+	/*为被选中的sidemenu后的wrap设置属性（非紧邻）*/
+	padding-left: 200px;
+}
+
+aside {
+	/*侧边栏,初始位置为-200px，即隐藏效果*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -200px;
+	width: 200px;
+	transition: 0.2s ease-out;
+	/*动画效果的执行方式是ease-out，即侧边栏滑动效果为渐变式，而不是生硬的突然变化*/
+}
+
+/*控制侧边栏进出的按钮（外部包裹）*/
+#wrap {
+	transition: 0.2s ease-out;
+	text-align: left;
+	width: 100%;
+}
+
+/*控制侧边栏进出的按钮（内部文字样式）*/
+label {
+	/*控制侧边栏进出的按钮*/
+	color: white;
+	display: inline-block;
+	font-size: 40px;
+}
+
+
+
 header{
 	background-color: #29bde0;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	height: 50px;
 }
-.bg-page1 {
-    width: 34px; height: 27px;
-    background: url('../images/7css_sprites.png') -165px -235px;
-}
+
+
 body{
 	background-color: #f0f0f0!important;
 
@@ -64,21 +107,25 @@ div{
 	margin-top: 2rem;
 	color: #9a9a9a;
 }
-
-.cirle1{
+.left{
+	text-align: left;
+}
+#c1{
 	background-color: #69d1e9;
 	width: 10px;
 	height: 10px;
 	border-radius: 50%;
-	 display:inline-block
-}
-
-.cirle2{
-	background-color: #f0f0f0;
-	width: 10px;
-	height: 10px;
-	border-radius: 50%;
 	display:inline-block
+}
+#right{
+	float: right;
+}
+.cirle{
+		background-color: #f0f0f0;
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		display:inline-block
 }
 
 .foot{
@@ -101,3 +148,22 @@ div{
 	top: 380px;
 	right: 0;
 }
+
+.white{
+	background: white;
+	height: 100%;
+
+	
+}
+.menu{
+	height: 50px;
+
+
+}
+.xian{
+	border: 1px solid #9a9a9a;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+

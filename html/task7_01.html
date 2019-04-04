@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
@@ -7,73 +8,94 @@
 	<script src="../js/jquery.min.js"></script>
 	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<script src="../js/bootstrap.min.js"></script>
-	<meta name="viewport" content="width=device-width,initial-scale=1">	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script src="../js/task7_01.js"></script>
 </head>
+
 <body>
-	<header>
-		<div class=bg-page1> </div>
-	</header>
-	<main>
-		<div class="module1">
-			<span class="text1">上次游戏：捉鬼猜词版</span>
-			<span class="right">></span>
+		<input type='checkbox' id='sidemenu'>
+		<aside>
+			<div class="white">
+				<div class="menu left">
+					<img src="../images/菜单01.png" alt="" class="dis">
+					<p class="dis">公告</p>
+					<img class="dis right" src="../images/菜单05.png" alt="" onclick="gk()">
+				</div>
+				<div class=" xian"></div>
+				<div class="menu left">
+						<img src="../images/菜单02.png" alt="" class="dis">
+						<p class="dis">设置</p>
+						<img class="dis right" src="../images/菜单05.png" alt="" onclick="sz()">
+				</div>
+				<div class=" xian"></div>
+				<div class="menu left">
+						<img src="../images/菜单03.png" alt="" class="dis">
+						<p class="dis">帮助</p>
+						<img class="dis right" src="../images/菜单05.png" alt="" onclick="bz()">						</div>
+				<div class=" xian"></div>
+				<div class="menu left">
+						<img src="../images/菜单04.png" alt="" class="dis">
+						<p class="dis">关于</p>
+						<img class="dis right" src="../images/菜单05.png" alt="" onclick="gy()">
+				</div>
+				<div class=" xian"></div>
+						
+
+			</div>
+		</aside>
+		<div id='wrap'>
+			<header><label id='sideMenuControl' for='sidemenu'>≡</label></header>			
+
+		<main>
+			<div class="module1">
+				<span class="text1">上次游戏：捉鬼猜词版</span>
+				<span class="right">></span>
+			</div>
+			<div class="module2">
+				<div class="text2" id="gameName">捉鬼游戏</div>
+				<div class="blue" id="jump">
+					<p onclick="jump()">
+						简化版
+					</p>
+				</div>
+	
+				<p class="text3">
+					有1133个用户正在玩此游戏
+				</p>
+	
+				<a onclick="dj()">
+					<div class="sanjiao">
+	
+					</div>
+				</a>
+				<div class="blue" id="edition1">
+					<p>
+						猜词版
+					</p>
+				</div>
+	
+				<p class="text3">
+					有1133个用户正在玩此游戏
+				</p>
+				<div class="blue" id="edition2">
+					<p>
+						白痴版
+					</p>
+				</div>
+				<p class="text3">
+					有1133个用户正在玩此游戏
+				</p>
+				<div class="foot">
+					<div class="cirle" id="c1"></div>
+					<div class="cirle" id="c2"></div>
+					<div class="cirle" id="c3"></div>
+					<div class="cirle" id="c4"></div>
+				</div>
+			</div>
+		</main>
+			<!--for 属性规定 label 与哪个表单元素绑定，即将这个控制侧边栏进出的按钮与checkbox绑定-->
 		</div>
-		<div class="module2">
-			<div class="text2">捉鬼游戏</div>
-
-			<div class="blue">
-				<p>
-					简化版
-				</p>
-			</div>
-
-			<p class="text3">
-				有1133个用户正在玩此游戏
-			</p>
-
-<a href="task7_02.html">
-			<div class="sanjiao">
-				
-			</div>
-</a>							
-			<div class="blue">
-				<p>			
-
-					猜词版			
-				
-				</p>
-
-
-
-			</div>
-
-			<p class="text3">
-				有1133个用户正在玩此游戏
-			</p>
-
-
-
-			<div class="blue">
-				<p>
-					白痴版
-				</p>
-			</div>
-
-			<p class="text3">
-				有1133个用户正在玩此游戏
-			</p>
-
-
-
-			<div class="foot">
-				<div class="cirle1"></div>
-				<div class="cirle2"></div>
-				<div class="cirle2"></div>
-				<div class="cirle2"></div>
-			</div>
-
-
-		</div>
-	</main>
+		
 </body>
+
 </html>

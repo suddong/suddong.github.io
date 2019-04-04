@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="../css/task7_sz.css">
+    <script src="../js/task7_sz.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class=" center">
+        <h3 class=" text left" onclick="back()"><</h3>
+        <h3 class="text">参数设置</h3>
+    </header>
+    <main>
+        <div class="main_module1">
+
+                <table>
+                    <tr>
+                        <th rowspan="2" class="wjpb">
+                            <h2>玩</h2><h2>家</h2><h2>配</h2><h2>比</h2>
+                        </th>
+                        <th class="w">
+                            <ul type="square">
+                                <li><p>杀&emsp;手1人</p></li>
+                                <li><p>杀&emsp;手1人</p></li>
+                            </ul>    
+                            <ul type="square">
+                                <li><p>医&emsp;生1人</p></li>
+                                <li><p>医&emsp;生1人</p></li>
+                            </ul>  
+                            <ul type="square">
+                                <li><p>狙击手1人</p></li>
+                                <li><p>狙击手1人</p></li>
+                            </ul>  
+                            <ul type="square">
+                                <li><p>警&emsp;察1人</p></li>
+                                <li><p>警&emsp;察1人</p></li>
+                            </ul>  
+                            <ul type="square">
+                                <li><p>警&emsp;察1人</p></li>
+                                <li><p>警&emsp;察1人</p></li>
+                            </ul>                         
+                        </th>
+                    </tr>
+                    <tr>
+                        <th class="bor"> <p>点击设置</p> </th>
+                    </tr>
+                </table>
+
+        </div>
+        <div class="main_module1" id="left">
+            <div class="mar">
+                    <p>
+                        水民词组
+                    </p>                
+            </div>
+            <div class="xian"></div>
+            <div class="mar">
+                    <p>
+                        幽灵词组
+                    </p>                
+            </div>
+            <div class="xian"></div>
+        </div>
+        <div class="main_module1">
+            <div class="text_left mar">
+                <p class="dis">玩家人数
+                <input type="text" id="num" >
+                <p class="dis">人</p>
+            </div>
+            <div class="mar">
+                <button class="bt1" onclick="reduce()">-</button>
+                <input  oninput="change()" type="range" id="rangeNumber" name="change" value="7" min="4" max="18" step="1" >
+                <button class="bt1" onclick="add()">+</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
